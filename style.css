@@ -1,0 +1,32 @@
+#Calculator {
+  width: 250px;
+  display: inline-flex;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers button {
+  flex-grow: 1;
+  min-width: 32%;
+}
+
+.screen {
+  display: flex;
+}
+
+.screen input {
+  flex: 1;
+}
+
+.screen_numbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+}
